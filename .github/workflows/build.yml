@@ -15,7 +15,7 @@ env:
 jobs:
   debug:
     name: Build APKs
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         variant: [debug, release, nightly, samples]
